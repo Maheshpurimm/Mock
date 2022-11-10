@@ -1,0 +1,58 @@
+GitHub Repository:
+====================================================================================================================================================
+
+Step-I: Create Central/Remote Repository
+
+Go to Github--->Click "+" or New Button---->enter Repository name---->Click Create Repository----->Copy generated Remote repository URL
+
+Note: Remote repository URL is shared within team
+====================================================================================================================================================
+
+
+Step-II: Create Local Repository:
+
+Right click on project---->Team---->Share project---->select checkbox---->select checkbox---->Click Create repository---->Finish
+
+Note:Blank local repository is created
+===============================================================================================================================================
+
+Step-III: Stagging/Index:
+
+Right click on project-->Team-->Add to index
+
+Note:Files are added to the stagging/Index
+===============================================================================================================================================
+Step-IV: Commit source code from local machine(Stagging/Index) to local repository:
+
+Right click on project-->Team-->Commit--->add commit message-->commit 
+
+Note:Files are saved into the local repository 
+===============================================================================================================================================
+
+Step-V:Push source code from Local Repository(git) to Remote Repository(github/bitbucket)
+
+Right click on project--->Team--->remote--->push--->Enter Remote repository URL--->Enter UN & PWD/Token--->next--->source ref(select master)
+-->Click add Specification-->next-->finish---->Close
+
+
+Note:Token generation: Go to signup-->setting-->Select developer settings-->Click personal access token--->click generate new token--->Enter Note(anything)
+---->select "No expiration" from Expiration dropdown----->select repo checkbox---->Click generate token
+
+URI- https://github.com/Maheshpurimm/Mock.git
+Token- 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
+=================================================================================================================================================
+
+Step-VI:Clone repository
+
+Search git repository-->Open git repository window--> click clone a git repository--> Enter Remote repository URL,UN & PWD(Token)
+--> Next-->select branch---->Next--> Finish
+
+Note:Repository will be cloned from Remote Repository to Local Repository
+====================================================================================================================================================
+Step-VII:Move Project from Local Repository to Working Directory
+
+File-->import-->Git-->Project from git-->next-->Existing Local Repository-->next-->select project-->Next-->Select import as general-->next-->Finish
+
+===================================================================================================================================================
+Who create central repository?
+Project Manager or Team Lead provide some credential to the test engineer like url, username and password.
